@@ -10,7 +10,8 @@ header("Location: login.php");
 exit();
 }
 ?>
-<h2>Welcome</h2>
+<h2>Welcome cambiado</h2>
+<p>Texto nuevo</p>
 <?php
 if($_SERVER['REQUEST_METHOD']=='POST'){
     $_SESSION['consulta']=$_POST['consulta'];
